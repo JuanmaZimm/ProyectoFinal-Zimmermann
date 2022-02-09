@@ -16,7 +16,7 @@
     </head>
 <body>
     <header>
-        <h1 class="display-1 bg-secondary">Zeta Make</h1>  
+        <h1 class="display-1 bg-secondary"><a href="../index.html">Zeta Make</a></h1>  
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Productos</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item text-white" href="./views/ropa.html">Ropa</a></li>
+                                <li><a class="dropdown-item text-white" href="../views/ropa.html">Ropa</a></li>
                                 <li><a class="dropdown-item text-white" href="#">Maquillaje</a></li>
                         </ul>
                     </li>
@@ -47,56 +47,52 @@
           </nav>
     </header>
     <main>
-        <div class="infoTiendas">
-            <div class="infoTiendas__text">
-                <h2>Nuestras Tiendas:</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta inventore asperiores enim sapiente, minima id architecto eos esse ducimus! Quas nemo fugit doloribus animi possimus, id reprehenderit temporibus explicabo.</p>
-            </div>
-            <div>
-                <img src="../img/imgExample.png" alt="producto">
-            </div>
-        </div>
 
-        <div class="infoEmpleados">
-            <div class="infoEmpleados__text">
-                <h3>Nuestros Empleados:</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium optio facere aliquid, autem dignissimos aut deleniti beatae esse architecto consectetur recusandae tempora enim ullam eaque eligendi vel laboriosam explicabo quibusdam.</p>
+        <div class="container-xxl mt-3 mb-3">
+            <div class="row row-cols-1 row-cols-md-2 pt-2 align-items-center">
+                <div class="col">
+                    <p class="display-4">Nuestras Tiendas</p>
+                    <p class="lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatem ab velit recusandae sequi ipsum, modi similique id error, aut mollitia. Suscipit cum nemo explicabo dolor ea unde possimus? Qui?
+                    </p>
+                </div>
+                <div class="col"><img class="img-fluid" src="../img/imgExample.png" alt=""></div>
             </div>
-            <div>
-                <img src="../img/imgExample.png" alt="producto">
+            <div class="row row-cols-1 row-cols-md-2 pt-3 align-items-center">
+                <div class="col"><img class="img-fluid" src="../img/imgExample.png" alt=""></div>
+                <div class="col">
+                    <p class="display-4">Nuestros Empleados</p>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime porro modi, rerum voluptas nobis ducimus vel quaerat neque. Natus at molestiae voluptatum aliquid mollitia quibusdam, aperiam similique explicabo dolorum blanditiis.
+                    </p>
+                </div>
             </div>
-            
-            
-        </div>
 
-        <div class="encuentraTienda">
-            <h2>Encuentra tu tienda:</h2>
-            <div class="encuentraTienda__pais">
-                <form action="">
-                    <label for="pais">Pais: </label>
-                    <select name="pais" id="">
-                        <option value="null">Seleccione Pais:</option>
-                        <option value="ARG">Argentina</option>
-                        <option value="BR">Brasil</option>
-                        <option value="CHI">Chile</option>
-                        <option value="MEX">Mexico</option>                
-                </select>
-                </form>
-            </div>
-                <!--la idea seria que seleccionar un pais me permitiese poner otro select sobre provinicias/estados de ese pais especifico-->
-            <div class="encuentraTienda__product">
+            <div class="encuentraMapa container-fluid bg-dark mt-3 text-white pb-3 border border-5 border-danger">
+                <p class="display-5 text-center">Encuentra tu tienda:</p>
                 <form>
-                    <label for="producto">Buscas:</label>
-                    <select name="producto" id="">
-                        <option value="any">De todo</option>
-                        <option value="makeup">Maquillaje</option>
-                        <option value="fashion">Fashion</option>
+                    <label for="tiendaProductos">¿Qué estás buscando?</label>
+                    <select name="tiendaProductos" class="form-select" aria-label="Default select example">
+                        <option selected>Selecionar</option>
+                        <option value="1">Ropa</option>
+                        <option value="2">Maquillaje</option>
+                        <option value="3">De todo</option>
                     </select>
-                </form>
+                    <label for="tiendaProductos">¿En qué país?</label>
+                    <select name="tiendaProductos" class="form-select" aria-label="Default select example">
+                        <option selected>Selecionar</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Brasil</option>
+                        <option value="3">Chile</option>
+                        <option value="4">México</option>
+                    </select>
+                  </form>
+                  <div>
+                      <p class="display-6">Mapa:</p>
+                      <img class="img-fluid" src="../img/imgExample.png" alt="producto">
+                  </div>
             </div>
-            <img src="../img/imgExample.png" alt="producto">
         </div>
-        
     </main>
     <footer class="bg-dark">
         <div class="container-fluid">

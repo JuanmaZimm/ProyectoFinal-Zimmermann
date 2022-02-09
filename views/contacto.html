@@ -16,7 +16,7 @@
     </head>
 <body>
     <header>
-        <h1 class="display-1 bg-secondary">Zeta Make</h1>  
+        <h1 class="display-1 bg-secondary"><a href="../index.html">Zeta Make</a></h1>  
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,53 +47,48 @@
           </nav>
     </header>
 
-    <main> 
-        
-        <div class="contacto__form">
-            <h2 class="contacto__form__title">Contactanos:</h2>
-            <form action="">
-                <div class="contacto__form__nombre">
-                    <label for="nombre">Nombre(s): </label>
-                    <br>
-                    <input type="text" name="nombre" placeholder="Nombre" id="">
+    <main>
+        <div class="containerFAQ container-xxl"> 
+            <p class="display-4">Quieres enviarnos un mensaje?</p>
+            <form>
+                <div class="mb-3">
+                  <label for="emailForm" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp" placeholder="example@xyz.com">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
 
-                <div class="contacto__form__apellido">
-                    <label for="apellido">Apellido(s): </label>
-                    <br>
-                    <input type="text" name="apellido" placeholder="Apellido" id="">
+                <div class="mb-3">
+                  <label for="nameForm" class="form-label">Nombre:</label>
+                  <input type="name" class="form-control" id="nameForm" placeholder="Nombre">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="lastNameForm" class="form-label">Apellido:</label>
+                    <input type="name" class="form-control" id="lastNameForm" placeholder="Apellido">
                 </div>
 
-                <div class="contacto__form__email">
-                    <label for="email">Email: </label>
-                    <br>
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-
-                <div class="contacto__form__asunto">
-                    <label for="asunto">Asunto: </label>
-                    <br>
-                    <select name="asunto" id="">
-                        <option value="null">Seleccionar asunto</option>
-                        <option value="makeup">Maquillaje</option>
-                        <option value="fashion">Ropa</option>
-                        <option value="stores">Tiendas</option>
-                        <option value="other">Otro</option>
+                <div class="mb-3">
+                    <label for="subjectForm" class="form-label">Asunto:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccionar</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
                     </select>
+                </div>  
+
+                <div class="mb-3">
+                    <label for="textForm" class="form-label">Escribenos tu mensaje:</label>
+                    <textarea class="form-control" id="textForm" rows="3"></textarea>
                 </div>
 
-                <div class="contacto__form__text">
-                    <label for="msg">Escribe tu mensaje:</label>
-                    <br>
-                    <textarea name="msg" id="" cols="230" rows="10" placeholder="Escribe aqui"></textarea>    
-                </div>
 
-                <div class="">
-                    Acepto Terminos y Condiciones:
-                    <input type="checkbox" name="acepta tyc" value="1">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
                 </div>
-                <div><input type="submit" value="Enviar"></div>
-            </form>  
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </main>
 

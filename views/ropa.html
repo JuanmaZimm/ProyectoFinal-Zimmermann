@@ -16,7 +16,7 @@
     </head>
 <body>
     <header>
-        <h1 class="display-1 bg-secondary">Zeta Make</h1>  
+        <h1 class="display-1 bg-secondary"><a href="../index.html">Zeta Make</a></h1>  
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Productos</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item text-white" href="./views/ropa.html">Ropa</a></li>
+                                <li><a class="dropdown-item text-white" href="../views/ropa.html">Ropa</a></li>
                                 <li><a class="dropdown-item text-white" href="#">Maquillaje</a></li>
                         </ul>
                     </li>
@@ -46,274 +46,344 @@
             </div>
           </nav>
     </header>
-    <main class="ropa__main">
-        <div class="filtro"> 
-            <h3>Filtros</h3><!--filtros-->
-            <ul>
-                <li>
-                    <h4>Remeras</h4>
-                    <ul>
-                        <li><input type="checkbox" name="blusa" id="">Blusas</li>
-                        <li><input type="checkbox" name="remeron" id="">Remerones</li>
-                        <li><input type="checkbox" name="tee" id="">Tee's</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Pantalones</h4>
-                    <ul>
-                        <li><input type="checkbox" name="jogging" id="">Joggings</li>
-                        <li><input type="checkbox" name="jean" id="">Jeans</li>
-                        <li><input type="checkbox" name="short" id="">Shorts</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Abrigos</h4>
-                    <ul>
-                        <li><input type="checkbox" name="buzo" id="">Buzos</li>
-                        <li><input type="checkbox" name="campera" id="">Camperas</li>
-                        <li><input type="checkbox" name="sweater" id="">Sweaters</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Accesorios</h4>
-                    <ul>
-                        <li><input type="checkbox" name="jogging" id="">Collares</li>
-                        <li><input type="checkbox" name="jean" id="">Anillos</li>
-                        <li><input type="checkbox" name="short" id="">Pulseras</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Talle:</h4>
-                    <ul>
-                        <li><input type="checkbox" name="S" id="">S</li>
-                        <li><input type="checkbox" name="M" id="">M</li>
-                        <li><input type="checkbox" name="L" id="">L</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!--Mostraria los elementos filtrados-->
-        <h3>Productos</h3> 
-        <div class="products">    
-            <ul>            
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
+    <main>
+        <div class="containerRopa container-xxl p-0">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand">Filtros</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Remeras
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Blusas</a></li>
+                                    <li><a class="dropdown-item" href="#">Remerones</a></li>
+                                    <li><a class="dropdown-item" href="#">Tee's</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pantalones
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Joggings</a></li>
+                                    <li><a class="dropdown-item" href="#">Jeans</a></li>
+                                    <li><a class="dropdown-item" href="#">Shorts</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Abrigos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camperas</a></li>
+                                    <li><a class="dropdown-item" href="#">Buzos</a></li>
+                                    <li><a class="dropdown-item" href="#">Sweaters</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Accesorios
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Collares</a></li>
+                                    <li><a class="dropdown-item" href="#">Anillos</a></li>
+                                    <li><a class="dropdown-item" href="#">Pulseras</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Talles
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">S</a></li>
+                                    <li><a class="dropdown-item" href="#">M</a></li>
+                                    <li><a class="dropdown-item" href="#">L</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div>
+                <p class="display-6 m-3">Productos:</p>
+            </div>
+            <div class="productsList container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-center justify-content-lg-evenly justify-content-around">
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col col-lg-2" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
+                    <div class="ropaProdcut card col" style="width: 18rem;">
+                        <img src="../img/imgExample.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-                <div>
-                    <img src="../img/imgExample.png" alt="producto">
-                    <br>
-                    <p>Producto</p>
-                </div>
-
-
-            </ul>
+            </div>
         </div>
         
     </main>
