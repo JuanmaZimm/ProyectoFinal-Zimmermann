@@ -8,5 +8,8 @@ header{
 
     nav {
         background-color: map-get($colores, fuchsia100 );
+    };
+    img{
+        @include sizes(100px, auto);
     }
 }

@@ -1,0 +1,36 @@
+/* index */
+
+//Variables
+@import "variables.scss";
+
+.index__carrusel{
+    margin-bottom: 25px;
+}
+
+.index__porQue{
+    margin-bottom: 25px;
+}
+
+.index__ad{
+    background-color:map-get($colores, fuchsia60 );
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #EF5DA8;
+
+    margin-bottom: 25px;
+}
+
+.index__studio{
+    margin-bottom: 25px;
+}
+
+.destacado__titulo{
+    margin-bottom: 15px;
+}
+
+.destacado__producto{
+    background-color: map-get($colores, iris60);
+
+    margin-bottom: 25px;
+}
