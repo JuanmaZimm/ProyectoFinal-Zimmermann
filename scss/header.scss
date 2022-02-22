@@ -1,0 +1,12 @@
+/* header */
+
+@import "variables.scss";
+
+header{
+    display:sticky;
+    background-color: map-get($colores, fuchsia60);
+
+    nav {
+        background-color: map-get($colores, fuchsia100 );
+    }
+}

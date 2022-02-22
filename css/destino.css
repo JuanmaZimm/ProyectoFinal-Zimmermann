@@ -1,0 +1,28 @@
+/**************
+    ESTILOS    
+***************/
+* {
+  padding: 0px;
+  margin: 0px; }
+
+/**************
+     General    
+***************/
+/* header */
+header {
+  display: sticky;
+  background-color: #FCDDEC; }
+  header nav {
+    background-color: #EF5DA8; }
+
+/* footer */
+footer {
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #EF5DA8; }
+  footer .social {
+    height: auto;
+    width: 50px; }
+  footer .copyright {
+    font-size: 12px; }
