@@ -1,9 +1,13 @@
-//Colores
+//Maps
 
 $colores:(
     fuchsia100:#EF5DA8,
     fuchsia60:#FCDDEC,
     iris60:#A5A6F6,
+);
+
+$gradientes:(
+    premiumDark:linear-gradient(to left,#434343,#04080F),
 );
 
 //Mixins

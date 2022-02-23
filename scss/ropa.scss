@@ -1,6 +1,23 @@
 /* ropa */
 
+//variables
+@import "variables.scss";
+
 .containerRopa{
+    background-color:map-get($colores, fuchsia60 ) ;
+
+    border-style: solid;
+    border-color: map-get($colores, fuchsia100);
+
     margin-top: 25px;
     margin-bottom: 25px;
+
+    nav{
+        background-image: map-get($gradientes, premiumDark );
+    }
+
+    .ropaProdcut{
+        margin-bottom: 25px;
+        padding-top: 15px;
+    }
 }

@@ -1,0 +1,21 @@
+/* tiendas */
+
+.nuestrasTiendas{
+    margin-bottom: 15px;
+}
+
+.nuestrosEmpleados{
+    margin-bottom: 15px;
+}
+
+.encuentraMapa{
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: map-get($colores, fuchsia100 );
+
+    background-image: map-get($gradientes, premiumDark );
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+/* contacto */
+.containerContacto{
+    border-style: solid;
+    border-color: map-get($colores, fuchsia100 );
+
+    background-color: map-get($colores, fuchsia60 );
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
