@@ -38,6 +38,11 @@ footer {
 
 .index__porQue {
   margin-bottom: 25px; }
+  .index__porQue .porQue__btn {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px; }
 
 .index__ad {
   background-color: #FCDDEC;
@@ -72,6 +77,8 @@ footer {
 .containerFAQ {
   margin-top: 25px;
   margin-bottom: 25px; }
+  .containerFAQ .otraPreg {
+    margin-top: 25px; }
 
 /* ropa */
 .containerRopa {
