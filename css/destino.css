@@ -39,10 +39,9 @@ footer {
 .index__porQue {
   margin-bottom: 25px; }
   .index__porQue .porQue__btn {
-    padding-left: 25px;
+    width: 25%;
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 25px; }
+    padding-bottom: 10px; }
 
 .index__ad {
   background-color: #FCDDEC;
