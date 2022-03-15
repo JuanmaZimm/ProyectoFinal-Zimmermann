@@ -17,6 +17,8 @@ header {
   header img {
     height: auto;
     width: 100px; }
+  header .dropdown-menu {
+    background-color: #EF5DA8; }
 
 /* footer */
 footer {
@@ -89,6 +91,9 @@ footer {
   .containerRopa nav {
     background-image: linear-gradient(to left, #434343, #04080F); }
   .containerRopa .ropaProdcut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 25px;
     padding-top: 15px; }
 

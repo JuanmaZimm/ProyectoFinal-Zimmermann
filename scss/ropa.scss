@@ -17,6 +17,9 @@
     }
 
     .ropaProdcut{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-bottom: 25px;
         padding-top: 15px;
     }

@@ -12,4 +12,8 @@ header{
     img{
         @include sizes(100px, auto);
     }
+
+    .dropdown-menu{
+        background-color: map-get($colores, fuchsia100);
+    }
 }
